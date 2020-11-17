@@ -2524,6 +2524,17 @@
     react-popper "^2.2.3"
     styled-components "^5.1.1"
 
+"@blend-ui/css-grid@1.0.2-alpha.0":
+  version "1.0.2-alpha.0"
+  resolved "https://registry.yarnpkg.com/@blend-ui/css-grid/-/css-grid-1.0.2-alpha.0.tgz#7caf2fa92e41c326af8cff4af6573989559e3514"
+  integrity sha512-dvkKMR8SmoCRqHQaeUcmAYmkC7yTvD3guCi1QKhHmSYQC38QvJ0CMBIKqGdjpQuNYnEywLfjCuNSDp1xjwwCkA==
+  dependencies:
+    react "^16.13.0"
+    react-dom "^16.13.0"
+    styled-components "^5.2.0"
+    styled-css-grid "^1.2.1"
+    styled-system "^5.1.5"
+
 "@blend-ui/icons@1.1.4-alpha.0", "@blend-ui/icons@^1.1.4-alpha.0":
   version "1.1.4-alpha.0"
   resolved "https://registry.yarnpkg.com/@blend-ui/icons/-/icons-1.1.4-alpha.0.tgz#8745783f029a35002725f8b3bd207207f3c989ce"
@@ -2558,10 +2569,10 @@
     react "^16.13.0"
     react-dom "^16.13.0"
 
-"@blend-ui/tabs@1.0.2-alpha.0":
-  version "1.0.2-alpha.0"
-  resolved "https://registry.yarnpkg.com/@blend-ui/tabs/-/tabs-1.0.2-alpha.0.tgz#0958587bd6f62ffa970b0aa1d496e05808738a2f"
-  integrity sha512-sl2NmYWOfflv9gKp2yzB6jrCgkbBtGjrN/djhjLW57+m24wXnXG6175UEfxyyIAVNvVaJEH5JJa71kCNYAvUIA==
+"@blend-ui/tabs@1.0.3-alpha.0":
+  version "1.0.3-alpha.0"
+  resolved "https://registry.yarnpkg.com/@blend-ui/tabs/-/tabs-1.0.3-alpha.0.tgz#5e2f2b3e5c8ccedb1e319602e5749acfc2ef9cc9"
+  integrity sha512-wxCDkG9T1S8oFW1suCEfrz+cj680YijRZfHnE8KtW4d9U3mMaSE4APPNLK1L9K+GKmLvpnzSxphsy+tvkJPBOw==
   dependencies:
     react "^16.13.0"
     react-dom "^16.13.0"
@@ -14989,6 +15000,13 @@ styled-components@^5.1.1, styled-components@^5.2.0:
     hoist-non-react-statics "^3.0.0"
     shallowequal "^1.1.0"
     supports-color "^5.5.0"
+
+styled-css-grid@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/styled-css-grid/-/styled-css-grid-1.2.1.tgz#dbaff2c159745002bc590f0fe3414675f1a15945"
+  integrity sha512-ileif/si3F62bfTD6f9yPe2SwNXfMdaaiIL9DYuw7TPMqle1sQBEjXUaIbYCzMpsHklF/xctgGUhBb3+thlZsQ==
+  dependencies:
+    prop-types "^15.6.0"
 
 styled-system@^5.1.5:
   version "5.1.5"
