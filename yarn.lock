@@ -2510,10 +2510,10 @@
   resolved "https://registry.yarnpkg.com/@base2/pretty-print-object/-/pretty-print-object-1.0.0.tgz#860ce718b0b73f4009e153541faff2cb6b85d047"
   integrity sha512-4Th98KlMHr5+JkxfcoDT//6vY8vM+iSPrLNpHhRyLx2CFYi8e2RfqPLdpbnpo0Q5lQC5hNB79yes07zb02fvCw==
 
-"@blend-ui/core@1.1.29-alpha.0":
-  version "1.1.29-alpha.0"
-  resolved "https://registry.yarnpkg.com/@blend-ui/core/-/core-1.1.29-alpha.0.tgz#1817376239de3b3bb6f09a20ae81e0ed6bfc82aa"
-  integrity sha512-MQitStwlG3niThdn1OpRHZLCYYFFGuYgQhdds06vwRPNSvaSONHnraUDskls0j0Q41cQRzSopw5m59sb6B2G6A==
+"@blend-ui/core@1.1.36-alpha.0":
+  version "1.1.36-alpha.0"
+  resolved "https://registry.yarnpkg.com/@blend-ui/core/-/core-1.1.36-alpha.0.tgz#64d5d2f6b15f5684b7c268eec8db2700836a772b"
+  integrity sha512-dQFOiXuFinYrG9g0mCNiVgBkbaF+jRhcVcqovPF0an+Ph/EfRQ6I36JVPB1eqm8QrBrp3xezmwscNTOMwwAtgQ==
   dependencies:
     "@blend-ui/icons" "^1.1.4-alpha.0"
     "@popperjs/core" "^2.5.3"
@@ -2557,6 +2557,16 @@
   dependencies:
     react "^16.13.0"
     react-dom "^16.13.0"
+
+"@blend-ui/tabs@1.0.2-alpha.0":
+  version "1.0.2-alpha.0"
+  resolved "https://registry.yarnpkg.com/@blend-ui/tabs/-/tabs-1.0.2-alpha.0.tgz#0958587bd6f62ffa970b0aa1d496e05808738a2f"
+  integrity sha512-sl2NmYWOfflv9gKp2yzB6jrCgkbBtGjrN/djhjLW57+m24wXnXG6175UEfxyyIAVNvVaJEH5JJa71kCNYAvUIA==
+  dependencies:
+    react "^16.13.0"
+    react-dom "^16.13.0"
+    styled-components "^5.2.0"
+    styled-system "^5.1.5"
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
