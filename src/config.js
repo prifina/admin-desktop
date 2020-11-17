@@ -7,7 +7,7 @@ const prod = {
   main_region: process.env.REACT_APP_MAIN_REGION,
   cognito: {
     USER_POOL_ID: process.env.REACT_APP_POOL_ID,
-    APP_CLIENT_ID: process.env.REACT_APP_APP_CLIENT_ID,
+    APP_CLIENT_ID: process.env.REACT_APP_SERVICE_CLIENT_ID,
     DEV_CLIENT_ID: process.env.REACT_APP_DEV_CLIENT_ID,
     SERVICE_CLIENT_ID: process.env.REACT_APP_SERVICE_CLIENT_ID,
     IDENTITY_POOL_ID: process.env.REACT_APP_IDENTITY_POOL_ID,
